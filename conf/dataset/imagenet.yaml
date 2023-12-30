@@ -1,0 +1,33 @@
+defaults:
+    - base
+
+dataset: imagenet
+num_classes: 1000
+inlier_classes: [
+  790,
+  54,
+  883,
+  984,
+  428,
+  707,
+  17,
+  608,
+  70,
+  635,
+  381,
+  701,
+  621,
+  764,
+  243,
+  120,
+  328,
+  989,
+  763,
+  614,
+  686,
+  101,
+  408,
+  364,
+  93
+]
+full_imagenet_path: /mnt/data/Public_datasets/imagenet/imagenet_fullres

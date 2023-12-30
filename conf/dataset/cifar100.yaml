@@ -1,0 +1,28 @@
+defaults:
+  - base
+  - cifar_normalization
+
+dataset: CIFAR100
+num_classes: 100
+inlier_classes: [
+  3,
+  42,
+  43,
+  88,
+  97,
+  15,
+  19,
+  21,
+  32,
+  39,
+  35,
+  63,
+  64,
+  66,
+  75,
+  37,
+  50,
+  65,
+  74,
+  80
+]

@@ -1,0 +1,33 @@
+defaults:
+    - base
+
+dataset: imagenet_carnivore
+num_classes: 1000
+inlier_classes: [
+  282,
+  551,
+  312,
+  442,
+  595,
+  657,
+  621,
+  270,
+  708,
+  106,
+  764,
+  964,
+  996,
+  23,
+  614,
+  511,
+  352,
+  874,
+  640,
+  246,
+  452,
+  692,
+  598,
+  189,
+  364
+]
+full_imagenet_path: /mnt/data/Public_datasets/imagenet/imagenet_fullres

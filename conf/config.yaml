@@ -1,0 +1,18 @@
+defaults:
+  - dataset: imagenet
+  - al_train: al_train
+  
+seed: ???
+device: cpu
+k_shot: ???
+al_rounds: ???
+use_outlier_class: false
+ensemble_len: null
+budget: ???
+num_workers: 8
+strategy: ???
+outlier_ratio: ???
+use_filtering: false
+use_semi: false
+epochs_semi: 0
+batch_size_semi: 256

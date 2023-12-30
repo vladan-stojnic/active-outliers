@@ -1,0 +1,33 @@
+defaults:
+  - base
+  - cifar_normalization
+
+dataset: tiny_imagenet
+num_classes: 200
+inlier_classes: [
+  29,
+  54,
+  114,
+  159,
+  171,
+  197,
+  94,
+  174,
+  192,
+  28,
+  1,
+  11,
+  5,
+  24,
+  83,
+  128,
+  82,
+  108,
+  118,
+  98,
+  180,
+  62,
+  163,
+  111,
+  78
+]

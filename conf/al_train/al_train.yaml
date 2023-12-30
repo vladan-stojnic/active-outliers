@@ -1,0 +1,4 @@
+epochs: 10
+lr: 5e-4
+batch_size: 32
+optimizer: adam
